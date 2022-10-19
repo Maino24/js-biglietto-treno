@@ -3,3 +3,8 @@ let age = prompt(`inserire numero di anni`)
 
 console.log(numberKm)
 console.log(age)
+
+
+const cost = 0.21
+
+console.log(cost)
