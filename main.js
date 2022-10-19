@@ -39,3 +39,47 @@ if (age < 18){
 
 
 document.getElementById(`rispostaCosto`).innerHTML=`Il costo del biglietto è : ${prezzoDef}`
+
+
+
+
+/*function esegui(){
+
+    let valueKm = document.getElementById(`inputKm`).value;
+    let valueAge = document.getElementById(`inputAge`).value;
+}
+
+    
+
+ const price = 0.21
+
+
+ if (valueAge < 18){
+
+    prezzoInt = price * valueKm
+    scontoMin =  ((numberKm * price)* 20) /100
+    prezzoDef = prezzoInt - scontoMin
+    prezzoDef = prezzoDef.toFixed(2)
+
+    console.log(prezzoDef)
+
+}else if (valueAge > 65){
+
+    prezzoInt = price * valueKm
+    scontoMax =  ((numberKm * price)* 40) /100
+    prezzoDef = prezzoInt - scontoMax
+    prezzoDef = prezzoDef.toFixed(2)
+
+    console.log(prezzoDef)       
+
+}else {
+
+    prezzoInt = cost * valueKm
+    prezzoDef = prezzoInt
+    prezzoDef = prezzoDef.toFixed(2)
+
+    console.log(prezzoDef) 
+}
+
+
+document.getElementById(`rispostaCosto`).innerHTML=`il costo del tuo biglietto è : ${prezzoDef}`*/
