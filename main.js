@@ -14,6 +14,7 @@ if (age < 18){
     prezzoInt = cost * numberKm
     scontoMin =  ((numberKm * cost)* 20) /100
     prezzoDef = prezzoInt - scontoMin
+    prezzoDef = prezzoDef.toFixed(2)
 
     console.log(prezzoDef)
 
@@ -22,6 +23,7 @@ if (age < 18){
     prezzoInt = cost * numberKm
     scontoMin =  ((numberKm * cost)* 40) /100
     prezzoDef = prezzoInt - scontoMin
+    prezzoDef = prezzoDef.toFixed(2)
 
     console.log(prezzoDef)       
 
@@ -29,10 +31,11 @@ if (age < 18){
 
     prezzoInt = cost * numberKm
     prezzoDef = prezzoInt
+    prezzoDef = prezzoDef.toFixed(2)
 
     console.log(prezzoDef) 
 }
 
 
 
-document.getElementById(`rispostaCosto`).innerHTML=`Il costo del biglietto è: ${prezzoDef}`
+document.getElementById(`rispostaCosto`).innerHTML=`Il costo del biglietto è : ${prezzoDef}`
