@@ -28,7 +28,11 @@ if (age < 18){
 }else {
 
     prezzoInt = cost * numberKm
+    prezzoDef = prezzoInt
 
-    console.log(prezzoInt) 
+    console.log(prezzoDef) 
 }
 
+
+
+document.getElementById(`rispostaCosto`).innerHTML=`Il costo del biglietto è: ${prezzoDef}`
